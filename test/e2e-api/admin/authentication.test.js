@@ -32,7 +32,7 @@ describe('Authentication API', function () {
                 });
         });
 
-        it.only('complete setup', async function () {
+        it('complete setup', async function () {
             await agent
                 .post('authentication/setup')
                 .body({
